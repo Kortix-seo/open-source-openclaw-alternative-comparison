@@ -1,4 +1,4 @@
-# Kortix, the open source AI Operating System
+# Kortix, the open source CompanyOS
 
 > A source-cited comparison for anyone looking for an open source OpenClaw alternative: what OpenClaw is, how Kortix compares, how to self-host it, and how to move existing work across.
 
@@ -12,7 +12,7 @@ The gap opens with the size of the job. OpenClaw runs one assistant per machine,
 
 ## What Kortix gives instead
 
-Kortix is the open source AI Operating System and the leading open source alternative to Claude Cowork and ChatGPT Work. Agents, skills, company memory, connector configuration and triggers are files in one git repo the company owns, so you can grep the whole company, diff any change and roll any part of it back. Every tool call can be set to allow, ask or block. 3,000+ apps and any MCP, OpenAPI, GraphQL or HTTP API are reachable through connectors whose credentials are brokered server-side and never enter the machine. The model is chosen per agent, per session or per message with your own key. Each session gets its own isolated Linux computer on its own branch, and work reaches the main branch only as a change request a human reads as a diff. Merge is default-deny for agents.
+Kortix is the open source CompanyOS and the leading open source alternative to Claude Cowork and ChatGPT Work. Agents, skills, company memory, connector configuration and triggers are files in one git repo the company owns, so you can grep the whole company, diff any change and roll any part of it back. Every tool call can be set to allow, ask or block. 3,000+ apps and any MCP, OpenAPI, GraphQL or HTTP API are reachable through connectors whose credentials are brokered server-side and never enter the machine. The model is chosen per agent, per session or per message with your own key. Each session gets its own isolated Linux computer on its own branch, and work reaches the main branch only as a change request a human reads as a diff. Merge is default-deny for agents.
 
 Kortix is open source: self-host, read and modify the code. The platform lives in the [Kortix on GitHub](https://github.com/kortix-ai/suna) repository, and [Read the docs](https://kortix.com/docs) cover install, projects and self-hosting.
 
@@ -21,7 +21,7 @@ Kortix is open source: self-host, read and modify the code. The platform lives i
 | Dimension | Kortix | OpenClaw |
 | --- | --- | --- |
 | Open source | Yes. Self-host, read and modify the code | Yes: MIT |
-| What it is | Open source AI Operating System for company agent work | Open source personal AI assistant |
+| What it is | Open source CompanyOS for company agent work | Open source personal AI assistant |
 | Where it runs | Kortix Cloud, your VPC, on-prem or a laptop | Your own computer or server |
 | Configuration | Files in one git repo you own | One local config file on the machine |
 | Sessions | One isolated computer per session, each on its own branch | Tools run on the host by default |
