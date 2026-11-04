@@ -14,7 +14,7 @@ The gap opens with the size of the job. OpenClaw runs one assistant per machine,
 
 Kortix is the open source CompanyOS and the leading open source alternative to Claude Cowork and ChatGPT Work. Agents, skills, company memory, connector configuration and triggers are files in one git repo the company owns, so you can grep the whole company, diff any change and roll any part of it back. Every tool call can be set to allow, ask or block. 3,000+ apps and any MCP, OpenAPI, GraphQL or HTTP API are reachable through connectors whose credentials are brokered server-side and never enter the machine. The model is chosen per agent, per session or per message with your own key. Each session gets its own isolated Linux computer on its own branch, and work reaches the main branch only as a change request a human reads as a diff. Merge is default-deny for agents.
 
-Kortix is open source: self-host, read and modify the code. The platform lives in the [Kortix on GitHub](https://github.com/kortix-ai/suna) repository, and [Read the docs](https://kortix.com/docs) cover install, projects and self-hosting.
+Kortix is open source: self-host, read and modify the code. The platform lives in the [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS) repository, and [Read the docs](https://kortix.com/docs) cover install, projects and self-hosting.
 
 ## Kortix vs OpenClaw at a glance
 
